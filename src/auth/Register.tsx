@@ -21,7 +21,7 @@ const Register = () => {
 		e.preventDefault();
 
 		await axios
-			.post("http://localhost:5000/users/register", registerUser)
+			.post("https://user-login-backend-production.up.railway.app/users/register", registerUser)
 			.then((res) => {
 				console.log(res.data);
 

@@ -20,7 +20,7 @@ const Login = () => {
 		e.preventDefault();
 
 		await axios
-			.post("http://localhost:5000/users/login", loginUser)
+			.post("https://user-login-backend-production.up.railway.app/users/login", loginUser)
 			.then((res) => {
 				if (res.status === 200) {
 					navigate("/dashboard");
