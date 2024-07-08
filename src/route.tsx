@@ -1,7 +1,6 @@
 import { createBrowserRouter } from "react-router-dom";
-import { Dashboard, Welcome } from "./pages";
+import { Dashboard, Error, Welcome } from "./pages";
 import { Login, Register } from "./auth";
-import Error from "./pages/Error";
 
 const route = createBrowserRouter([
 	{ path: "/", element: <Welcome />, errorElement: <Error /> },
