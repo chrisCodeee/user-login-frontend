@@ -20,9 +20,9 @@ const Welcome = () => {
 					<Link to="/users/register" className="btn btn-primary btn-block mb-2">
 						Register
 					</Link>
-					<a href="/users/login" className="btn btn-secondary btn-block">
+					<Link to="/users/login" className="btn btn-secondary btn-block">
 						Login
-					</a>
+					</Link>
 				</div>
 			</div>
 		</div>
